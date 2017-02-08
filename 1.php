@@ -7,8 +7,9 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+	
 function upper_case(str)
 {
    regexp = /^[A-Z]/;
@@ -23,3 +24,4 @@ function upper_case(str)
 }
 upper_case('Abcd');
 upper_case('abcd');
+</script>

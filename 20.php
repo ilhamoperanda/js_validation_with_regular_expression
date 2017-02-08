@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_alphaDash(str)
 {
  regexp = /^[a-z0-9_\-]+$/i;
@@ -27,3 +28,4 @@ function is_alphaDash(str)
 console.log(is_alphaDash('12-133'));
 
 console.log(is_alphaDash('100_23'));
+</script>

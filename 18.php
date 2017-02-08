@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_domain(str)
 {
  regexp = /^[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,6}$/i;
@@ -33,3 +34,4 @@ console.log(is_domain('http://www.example.com'));
 console.log(is_domain('https://www.example.com'));
 
 console.log(is_domain('www.example.com'));
+</script>

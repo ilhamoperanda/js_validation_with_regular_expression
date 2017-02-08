@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_hexadecimal(str)
 {
  regexp = /^[0-9a-fA-F]+$/;
@@ -27,3 +28,4 @@ function is_hexadecimal(str)
 console.log(is_hexadecimal("ffffff"));
 
 console.log(is_hexadecimal("fz5500"));
+</script>

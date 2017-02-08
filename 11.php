@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_timeString(str)
 {
  regexp = /^(2[0-3]|[01]?[0-9]):([0-5]?[0-9]):([0-5]?[0-9])$/;
@@ -27,3 +28,4 @@ function is_timeString(str)
 console.log(is_timeString("11:35:30"));
 
 console.log(is_timeString("90:90:90"));
+</script>

@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_hexcolor(str)
 {
  regexp = /^#?([0-9a-fA-F]{3}|[0-9a-fA-F]{6})$/;
@@ -27,3 +28,4 @@ function is_hexcolor(str)
 console.log(is_hexcolor("#444"));
 
 console.log(is_hexcolor("#3333"));
+</script>

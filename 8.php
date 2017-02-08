@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+	
 function vowel_count(str) {
 
   return str.match(/[aeiou]/gi).length;
@@ -17,3 +18,4 @@ function vowel_count(str) {
 }
 
 console.log(vowel_count('The quick brown fox jumps over the lazy dog'));
+</script>

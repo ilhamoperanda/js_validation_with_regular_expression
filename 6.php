@@ -14,8 +14,9 @@
   <input id = "noofwords" type="text" value="" size="6"> 
   </body>
   </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function count_words()
 {
 str1= document.getElementById("InputText").value;
@@ -27,3 +28,4 @@ str1 = str1.replace(/[ ]{2,}/gi," ");
 str1 = str1.replace(/\n /,"\n");
 document.getElementById("noofwords").value = str1.split(' ').length;
 }
+</script>

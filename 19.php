@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_html(str)
 {
  regexp = /<([a-z]+) *[^/]*?>/;
@@ -29,3 +30,4 @@ console.log(is_html(''));
 console.log(is_html(''));
 
 console.log(is_html('.selector'));
+</script>

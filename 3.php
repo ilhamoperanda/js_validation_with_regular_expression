@@ -7,8 +7,9 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+	
 function valid_email(str)
 {
 var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
@@ -23,3 +24,4 @@ console.log("You have entered an invalid email address!");
 }
 
 valid_email('me-info@example.com');
+</script>

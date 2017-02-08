@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_caPostalCode(str)
 {
  regexp = /^(?!.*[DFIOQU])[A-VXY][0-9][A-Z]\s?[0-9][A-Z][0-9]$/;
@@ -29,3 +30,4 @@ console.log(is_caPostalCode("K8V3Y1"));
 console.log(is_caPostalCode("K8V 3Y1"));
 
 console.log(is_caPostalCode("Z4V4X1"));
+</script>

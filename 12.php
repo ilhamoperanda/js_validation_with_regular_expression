@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function is_usZipCode(str)
 {
  regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
@@ -27,3 +28,4 @@ function is_usZipCode(str)
 console.log(is_usZipCode("03201-2150"));
 
 console.log(is_usZipCode("7892"));
+</script>

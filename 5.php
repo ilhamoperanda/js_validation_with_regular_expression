@@ -7,8 +7,9 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+  
 function Trim(str)
 {
   var result;
@@ -22,3 +23,4 @@ function Trim(str)
     return false;
   }
 }
+</script>

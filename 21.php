@@ -8,8 +8,9 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<!-- JavaScript Code : -->
+<script type="text/javascript">
+	
 function thousands_separators(num)
   {
     var num_parts = num.toString().split(".");
@@ -20,3 +21,4 @@ function thousands_separators(num)
 console.log(thousands_separators(1000));
 console.log(thousands_separators(10000.23));
 console.log(thousands_separators(100000));
+</script>
